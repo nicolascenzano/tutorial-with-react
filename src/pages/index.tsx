@@ -15,8 +15,8 @@ export default function Index() {
 
   return (
     <main>
-      <h1>Welcome to the Dinosaur app</h1>
-      <p>Click on a dinosaur below to learn more.</p>
+      <h1>Título de mi página</h1>
+      <p>Puedes hacer click en un dinosaurio para saber más.</p>
       {dinosaurs.map((dinosaur: Dino) => {
         return (
           <Link
